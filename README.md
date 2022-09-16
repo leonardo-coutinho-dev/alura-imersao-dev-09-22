@@ -11,3 +11,12 @@ A aplicação deve sempre ter dois valores, visto que precisamos de pelo menos d
 ### Segunda aplicação
 
 Trata-se de uma aplicação para converter valores de moedas em tempo real. O usuário deve passar um valor, selecionar a moeda em que esse valor está atualmente, selecionar qual a moeda para qual quer converter esse valor e clicar no botão "calcular" para obter o resultado. Os valores devem ser valores atuais de mercado.
+
+Alguns desafios dessa aplicação seriam:
+
+- Adicionar uma funcionalidade que devolva o valor que o usuário digitou, na moeda original, convertido para bitcoin;
+- Adicionar uma funcionalidade que possa converter valores em quilômetros para valores em anos-luz.
+- Adicionar uma funcionalidade que faça a conversão de temperaturas;
+
+### Terceira aplicação
+
