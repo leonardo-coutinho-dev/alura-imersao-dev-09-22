@@ -27,3 +27,6 @@ Como desafio, temos:
 - Mostrar e atualizar o número de tentativas até o usuário conseguir acertar o número e exibir uma mensagem de quantas tentativas foram necessárias até o usuário acertar o número;
 
 - Na mensagem de erro, deve aparecer uma mensagem dizendo se o número digitado pelo usuário é maior ou menor que o número armazenado pela aplicação;
+
+### Quarta aplicação
+
