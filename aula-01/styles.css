@@ -41,7 +41,7 @@ body {
 
 .container-grade-form {
   background-color: #fafafa;
-  padding: 10px 0;
+  padding: 20px;
 }
 
 .container-grade-form form {
@@ -52,7 +52,7 @@ body {
 }
 
 .container-grade-form form input {
-  width: 174px;
+  width: 226px;
   margin: 8px 0;
   border: 1px solid #ccc;
   padding: 5px;
@@ -71,7 +71,7 @@ body {
   color: #fafafa;
 }
 
-h3, h4 {
+h3, h4, h6 {
   margin-top: 5px;
 }
 
