@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  text-align: center;
+  text-align: left;
   padding: 40px 20px 20px;
   height: 100vh;
 }
@@ -22,8 +22,10 @@ body {
 }
 
 .page-subtitle {
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: 20px;
   color: #ffffff;
-  margin-top: 5px;
 }
 
 .course-name {
@@ -41,6 +43,7 @@ body {
 
 .container-grade-form {
   background-color: #fafafa;
+  text-align: center;
   padding: 20px;
 }
 
@@ -74,8 +77,9 @@ body {
 }
 
 h3,
-h4 {
-  margin-top: 5px;
+h4,
+h5 {
+  margin-top: 10px;
 }
 
 .page-logo {

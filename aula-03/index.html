@@ -11,16 +11,30 @@
     <div class="container">
       <h1 class="page-title">Mentalista - Adivinhe o número</h1>
       <p class="page-subtitle">
-        Entre um determinado valor, de 0 a 10, e verifique se esse é o número aleatório secreto gerado pelo computador.
+        - Entre um determinado valor, de 0 a 10;
+      </p>
+      <p class="page-subtitle">
+        - O valor será comparado com o gerado pela aplicação, e você receberá um retorno ao clicar no botão verificar;
+      </p>
+      <p class="page-subtitle">
+        - O botão atualizar reseta a aplicação, gerando um novo número;
       </p>
       <p class="course-name">Imersão <span>_dev</span></p>
       <div class="container-grade-form">
         <form>
           <label> Entre o valor desejado (de 0 a 10): </label>
           <input id="valor" type="number" />
-          <button type="button" onclick="onClick()">Verificar</button>
+          <div class="button-container">
+            <button type="button" onclick="onClick()">Verificar</button>
+            <button type="button" onclick="gerarNovoNumeroAleatorio()">
+              Atualizar
+            </button>
+          </div>
         </form>
-        <h3 id="texto-resposta"></h3>
+        <h5 id="numero-de-tentativas">
+          O número de tentativas é: 0!
+        </h5>
+        <h5 id="texto-resposta"></h5>
       </div>
     </div>
 
