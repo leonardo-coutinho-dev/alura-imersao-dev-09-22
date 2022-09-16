@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Mono',monospace;
+  min-height: 400px;
+  background-color: #1d1d1d;
+}
+
+.container {
+  text-align: center;
+  padding: 40px 20px 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color:#ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color:#ffffff;
+  margin-top: 5px;
+}
+
+.course-name {
+  color: #ffffff;
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.course-name span {
+  background-color: #fafafa;
+  color: #1d1d1d;
+  padding: 5px;
+  display: inline-block;
+}
+
+.container-grade-form {
+  background-color: #fafafa;
+  padding: 10px 0;
+}
+
+.container-grade-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-grade-form form input {
+  width: 174px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.container-grade-form form input:focus {
+  background: #ebebeb;
+  outline: #ccc;
+}
+
+.container-grade-form button {
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #1d1d1d;
+  color: #fafafa;
+}
+
+h3, h4 {
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
