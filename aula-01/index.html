@@ -15,39 +15,51 @@
       </p>
       <p class="course-name">Imersão <span>_dev</span></p>
       <div class="container-grade-form">
-        <form>
-          <label>Nota 1</label>
-          <input type="number" />
-          <label>Nota 2</label>
-          <input type="number" />
-          <label>Nota 3</label>
-          <input type="number" />
-          <label>Nota 4</label>
-          <input type="number" />
+        <form id="form-grade-value">
+          <div id="container-form-content">
+            <div class="entry-values-container">
+              <label class="label">Nota</label>
+              <input class="input" type="number" />
+            </div>
+            <div class="entry-values-container">
+              <label class="label">Nota</label>
+              <input class="input" type="number" />
+            </div>
+            <div class="entry-values-container">
+              <label class="label">Nota</label>
+              <input class="input" type="number" />
+            </div>
+            <div class="entry-values-container">
+              <label class="label">Nota</label>
+              <input class="input" type="number" />
+            </div>
+          </div>
           <div class="button-container">
-            <button type="submit">Calcular</button>
-            <button type="submit">Adicionar campo</button>
+            <button type="button">Calcular</button>
+            <button type="button" onClick="addInputValue()">Adicionar campo</button>
           </div>
         </form>
-        <h3>
-          A sua média é:
-        </h3>
-        <h4>
-          {média}
-        </h4>
+        <h3>A sua média é:</h3>
+        <h4>{média}</h4>
         <h6>
-          desafio: fazer uma mini aplicação que você consiga adicionar quantas notas quiser, e deletar as mesmas, com exceção de que as duas primeiras sempre têm que estar ali, e quando o usuário tentar deletar elas um aviso será exibido em tela dizendo que não é possível excluir porque você precisa de pelo menos duas notas para calcular a média. a aplicação deve devolver a média de todas as notas que forem inseridas no input.
+          desafio: fazer uma mini aplicação que você consiga adicionar quantas
+          notas quiser, e deletar as mesmas, com exceção de que as duas
+          primeiras sempre têm que estar ali, e quando o usuário tentar deletar
+          elas um aviso será exibido em tela dizendo que não é possível excluir
+          porque você precisa de pelo menos duas notas para calcular a média. a
+          aplicação deve devolver a média de todas as notas que forem inseridas
+          no input.
         </h6>
       </div>
     </div>
 
-    <a href="https://alura.com.br/" target="_blank">
+    <!-- <a href="https://alura.com.br/" target="_blank">
       <img
         src="https://www.alura.com.br/assets/img/home/alura-logo.svg"
         alt=""
         class="alura-logo"
       />
-    </a>
+    </a> -->
   </body>
   <script src="script.js"></script>
 </html>

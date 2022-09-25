@@ -72,6 +72,12 @@ body {
   font-size: 16px;
   background-color: #1d1d1d;
   color: #fafafa;
+  transition: all 0.5s ease;
+}
+
+.container-grade-form button:hover {
+  background-color: royalblue;
+  color: #fafafa;
 }
 
 h3, h4, h6 {
@@ -87,4 +93,8 @@ h3, h4, h6 {
   position: absolute;
   top: 10px;
   right: 10px;
+}
+
+.item-adicionado {
+  margin-bottom: 8px;
 }
